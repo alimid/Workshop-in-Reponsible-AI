@@ -8,6 +8,8 @@ conda create --name rai_ws
 
 conda activate rai_ws
 
-Then navigate to the repository by the (cd command on windows). When you are located in the repository, write:
+Then navigate to the repository by the (cd command on windows). When you are located in the repository, install all requirements and open in jupyter notebook:
+
+pip install -r requirements.txt
 
 jupyter notebook
