@@ -5,6 +5,7 @@ Download this repository and unzip.
 To run the workshop, first create a virtual environment. Open Anaconda prompt and write the following commands:
 
 conda create --name rai_ws
+
 conda activate rai_ws
 
 Then navigate to the repository by the cd command. When you are located in the repository, write:
