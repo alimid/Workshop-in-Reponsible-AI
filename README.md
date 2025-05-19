@@ -8,6 +8,6 @@ conda create --name rai_ws
 
 conda activate rai_ws
 
-Then navigate to the repository by the cd command. When you are located in the repository, write:
+Then navigate to the repository by the (cd command on windows). When you are located in the repository, write:
 
 jupyter notebook
