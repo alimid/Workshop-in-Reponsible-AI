@@ -1,34 +1,12 @@
-# PLAN B – Offline Responsible AI Workshop
+# This repository is a workshop to learn methods to create responsible AI.
 
-Denne pakken lar deg kjøre hele workshopen lokalt **uten** Colab, Docker eller GPU.
+# Download this repository and unzip. 
 
-## 1 . Installer Python ≥ 3.10
+# To run the workshop, first create a cirtual environment. Open Anaconda prompt and write the following commands:
 
-## 2 . Virtuelt miljø
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-```
+# conda create --name rai_ws
+# conda activate rai_ws
 
-## 3 . Installer avhengigheter
-```bash
-python -m pip install --upgrade pip
-pip install -r requirements_offline.txt
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-```
+Then navigate to the repository by the cd command. When you are located in the repository, write:
 
-## 4 . Start JupyterLab
-```bash
-jupyter lab
-```
-Åpne **offline_workshop.ipynb** og følg instruksjonene.
-
-## 5 . Hent data
-```bash
-python scripts/fetch_adult.py
-```
-
-Generert 2025-05-13
+# jupyter notebook
